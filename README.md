@@ -75,13 +75,13 @@ For this version (open-source) there is no support or documentation.
 Be aware, because it is by your own risk.
 
 #### Screenshots
-![DahIO Login Page](https://github.com/lserra/dashio/blob/master/static/dash/static/img/gallery/dashio_login.png "DahIO Login Page")
+![DahIO Login Page](https://github.com/lserra/dashio1/blob/master/static/dash/static/img/gallery/dashio_login.png "DahIO Login Page")
 
-![DashIO Main Page](https://github.com/lserra/dashio/blob/master/static/dash/static/img/gallery/dashio_main_page.png "DahIO Main Page")
+![DashIO Main Page](https://github.com/lserra/dashio1/blob/master/static/dash/static/img/gallery/dashio_main_page.png "DahIO Main Page")
 
-![DashIO Donorschoose Analysis](https://github.com/lserra/dashio/blob/master/static/dash/static/img/gallery/dashio_analysis1.png "DahIO Donorschoose Analysis")
+![DashIO Donorschoose Analysis](https://github.com/lserra/dashio1/blob/master/static/dash/static/img/gallery/dashio_analysis1.png "DahIO Donorschoose Analysis")
 
-![DashIO Devices in China](https://github.com/lserra/dashio/blob/master/static/dash/static/img/gallery/dashio_analysis2.png "DahIO Devices in China Analysis")
+![DashIO Devices in China](https://github.com/lserra/dashio1/blob/master/static/dash/static/img/gallery/dashio_analysis2.png "DahIO Devices in China Analysis")
 
 #### Issues
 No issues at the moment
