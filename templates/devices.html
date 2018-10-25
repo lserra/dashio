@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<!-- start: Meta -->
+	<meta charset="utf-8">
+	<title>DashIO</title>
+	<meta name="description" content="dahio">
+	<meta name="author" content="lserra@gmail.com">
+	<meta name="keyword" content="data analytics, data visualization, bi, big data, monitoring">
+	<!-- end: Meta -->
+
+    <!-- start: CSS -->
+    <link rel="stylesheet" href="./static/css/df-bootstrap.min.css">
+    <link rel="stylesheet" href="./static/css/df-custom.css">
+    <link rel="stylesheet" href="./static/css/df-dash.css">
+    <link rel="stylesheet" href="./static/css/df-dc.css">
+    <!-- end: CSS -->
+
+	<!-- start: Favicon -->
+	<link rel="shortcut icon" href="./static/dash/static/img/favicon.ico">
+	<!-- end: Favicon -->
+</head>
+<body class="application">
+
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/main">Devices in China Case Study</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+
+    <div class="row">
+
+      <div class="col-sm-6">
+        <div class="row">
+
+          <!-- Gender Chart -->
+          <div class="col-sm-12">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                Devices by Gender
+              </div>
+              <div class="chart-stage">
+                <div id="gender-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Gender Chart -->
+
+          <!-- Devices Pie -->
+          <div class="col-sm-6">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                Devices by Brand
+              </div>
+              <div class="chart-stage">
+                <div id="device-brand-row-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Devices Pie -->
+
+          <!-- Age Pie -->
+          <div class="col-sm-6">
+            <div class="chart-wrapper">
+              <div class="chart-title">
+                Devices by Age
+              </div>
+              <div class="chart-stage">
+                <div id="age-segment-row-chart"></div>
+              </div>
+            </div>
+          </div>
+          <!-- Age Pie -->
+
+        </div>
+      </div>
+
+      <!-- Time Chart -->
+      <div class="col-sm-6">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Devices by Date
+          </div>
+          <div class="chart-stage">
+            <div id="time-chart"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Time Chart -->
+
+      <!-- Metric 1 -->
+      <div class="col-sm-3">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Total Number of Devices
+          </div>
+          <div class="chart-stage">
+            <div id="number-projects-nd"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Metric 1 -->
+
+      <!-- Metric 2 -->
+      <div class="col-sm-3">
+        <div class="chart-wrapper">
+          <div class="chart-title">
+            Average of Devices
+          </div>
+          <div class="chart-stage">
+            <div id="total-donations-nd"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Metric 2 -->
+
+    </div>
+
+  </div>
+
+  <hr>
+  <p class="small text-muted">Built by <a href="http://www.datafresh.com.br">Datafresh</a></p>
+
+  <script src="./static/js/jquery.min.js"></script>
+  <script src="./static/js/bootstrap.min.js"></script>
+  <script src="./static/js/crossfilter.js"></script>
+  <script src="./static/js/d3.js"></script>
+  <script src="./static/js/dc.js"></script>
+  <script src="./static/js/queue.js"></script>
+  <script src="./static/js/keen.min.js"></script>
+  <script src="./static/js/graphs_d.js"></script>
+</body>
+</html>
