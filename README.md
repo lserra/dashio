@@ -1,5 +1,5 @@
 # dashio
-This is a platform of data exploration, analysis and visualization.
+This is a data platform for exploration, analysis and visualization.
 Developed to be intuitive, iterative and collaborative.
 
 For more information about it, please visit: http://www.datafresh.com.br
